@@ -1,0 +1,6 @@
+{"max_len" : 128,  "lr": 0.0008, "betas": [0.9, 0.98], "weight_decay": 0.01, "eps": 1e-06, "num_warmup_steps": 8000, "num_training_steps": 82494,
+ "overwrite_output_dir": true, "num_train_epochs": 2, "per_device_train_batch_size": 256, "per_device_eval_batch_size": 10, "do_eval": true
+, "do_train": true, "evaluation_strategy": "steps", "eval_steps": 500, "save_steps": 2000, "save_total_limit": 25, "logging_steps": 100
+, "logging_dir": "./Model_Wilbert_3/runs", "gradient_accumulation_steps": 10, "eval_accumulation_steps": 10, "fp16": true
+, "train_tokenizer": true, "outfile_tokenizer": "./Model_Wilbert_3/Tokenizer", "start_from_checkpoint": false, "path_to_checkpoint": 
+"Model_Wilbert_3/Output", "output_dir": "./Model_Wilbert_3", "random_seed" : 42}
